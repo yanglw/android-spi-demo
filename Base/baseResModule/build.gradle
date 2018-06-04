@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 15
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+}
+
+apply from:'../gradle-mvn-local.gradle'

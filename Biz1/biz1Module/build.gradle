@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    resourcePrefix 'biz1_'
+
+    defaultConfig {
+        minSdkVersion 15
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+
+    implementation 'me.yanglw:android-spi-demo-base-biz:1.0.0'
+    implementation 'me.yanglw:android-spi-demo-base-res:1.0.0'
+    implementation 'me.yanglw:android-spi-demo-base-service-home-page:1.0.0'
+
+    implementation 'me.yanglw:android-spi-annotation:1.0.0'
+}
+
+apply from:'../gradle-mvn-local.gradle'
+

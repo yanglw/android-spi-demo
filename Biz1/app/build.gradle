@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        applicationId "me.yanglw.android.spi.demo.biz1"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'me.yanglw:android-spi-demo-biz1:1.0.0'
+
+    implementation 'me.yanglw:android-spi-loader:1.0.0'
+}
+
+apply plugin:'me.yanglw.android.spi'
+

@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    resourcePrefix 'base_'
+
+    defaultConfig {
+        minSdkVersion 15
+    }
+
+}
+
+apply from:'../gradle-mvn-local.gradle'
+

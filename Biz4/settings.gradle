@@ -1,0 +1,3 @@
+include ':app'
+include ':biz4Module'
+include ':biz4ServiceCommodityModule'
