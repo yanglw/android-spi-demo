@@ -55,6 +55,7 @@ android-spi-demo
     └─biz4ServiceCommodityModule
 ```
 
+![](./chart.jpg)
 
 
 Application 项目为主项目，它包含一个空壳项目 app ，主要用以加载子模块在 ViewPager 中的展示。
