@@ -27,7 +27,7 @@ dependencies {
     implementation 'me.yanglw:android-spi-demo-biz3:1.0.0'
     implementation 'me.yanglw:android-spi-demo-biz4:1.0.0'
 
-    implementation 'me.yanglw:android-spi-loader:1.0.0'
+    implementation 'me.yanglw:android-spi-loader:1.0.1'
 }
 
 apply plugin:'me.yanglw.android.spi'

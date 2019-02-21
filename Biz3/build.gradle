@@ -10,7 +10,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.2'
-        classpath 'me.yanglw:android-spi-compiler:1.0.0'
+        classpath 'me.yanglw:android-spi-compiler:1.0.1'
     }
 }
 

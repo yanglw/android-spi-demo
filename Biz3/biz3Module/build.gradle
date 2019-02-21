@@ -20,7 +20,7 @@ dependencies {
     implementation 'me.yanglw:android-spi-demo-biz3-order-service:1.0.0'
     implementation 'me.yanglw:android-spi-demo-biz4-commodity-service:1.0.0'
 
-    implementation 'me.yanglw:android-spi-loader:1.0.0'
+    implementation 'me.yanglw:android-spi-loader:1.0.1'
 }
 
 apply from:'../gradle-mvn-local.gradle'

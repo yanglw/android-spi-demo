@@ -18,7 +18,7 @@ dependencies {
     implementation 'me.yanglw:android-spi-demo-base-res:1.0.0'
     implementation 'me.yanglw:android-spi-demo-base-service-home-page:1.0.0'
 
-    implementation 'me.yanglw:android-spi-annotation:1.0.0'
+    implementation 'me.yanglw:android-spi-annotation:1.0.1'
 }
 
 apply from:'../gradle-mvn-local.gradle'
