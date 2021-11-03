@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.yanglw",
+    "module": "android-spi-demo-biz3",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "android-spi-demo-biz3-1.0.0.aar",
+          "url": "android-spi-demo-biz3-1.0.0.aar",
+          "size": 38899,
+          "sha512": "8323a26a64252389b668782358dd0bf9d4bfdc952b3994a4556c171bdf1938285367598c8cd89af400dd6b415e184e2d57191b6239af744d88df5889680e2c5b",
+          "sha256": "0591963119be9ee2c0330cce1f44bee7b28a7e26df2c03081497f57edf2a4b1f",
+          "sha1": "1aa51b086193f63283c7f34e4da13387bbbade24",
+          "md5": "6579017fdc911d5c21a0f4479bf47670"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "android-spi-demo-base-biz",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "android-spi-demo-base-res",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "android-spi-demo-base-service-home-page",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "android-spi-demo-biz4-commodity-service",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "android-spi-demo-biz3-order-service",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "android-spi-loader",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-spi-demo-biz3-1.0.0.aar",
+          "url": "android-spi-demo-biz3-1.0.0.aar",
+          "size": 38899,
+          "sha512": "8323a26a64252389b668782358dd0bf9d4bfdc952b3994a4556c171bdf1938285367598c8cd89af400dd6b415e184e2d57191b6239af744d88df5889680e2c5b",
+          "sha256": "0591963119be9ee2c0330cce1f44bee7b28a7e26df2c03081497f57edf2a4b1f",
+          "sha1": "1aa51b086193f63283c7f34e4da13387bbbade24",
+          "md5": "6579017fdc911d5c21a0f4479bf47670"
+        }
+      ]
+    }
+  ]
+}

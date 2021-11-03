@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.yanglw",
+    "module": "android-spi-demo-biz4-commodity-service",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "android-spi-demo-biz4-commodity-service-1.0.0.aar",
+          "url": "android-spi-demo-biz4-commodity-service-1.0.0.aar",
+          "size": 1780,
+          "sha512": "b8a6142ce0f6e7aabad55d1ba9397ac3847d8d21a25e932d243cb0e4bc9caced72a49896b145650e46e4e9b478d2db3fd868fa419723db90938ff0c625485f3a",
+          "sha256": "864f9da2878b84aaeb3aeb0e2098a8199e3b37c9243fda12f1362a0925922bca",
+          "sha1": "c7987087d43e0828df7294b2d97848bb82519c61",
+          "md5": "7625e8f2cb02ff2267a7b9aba76de548"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-spi-demo-biz4-commodity-service-1.0.0.aar",
+          "url": "android-spi-demo-biz4-commodity-service-1.0.0.aar",
+          "size": 1780,
+          "sha512": "b8a6142ce0f6e7aabad55d1ba9397ac3847d8d21a25e932d243cb0e4bc9caced72a49896b145650e46e4e9b478d2db3fd868fa419723db90938ff0c625485f3a",
+          "sha256": "864f9da2878b84aaeb3aeb0e2098a8199e3b37c9243fda12f1362a0925922bca",
+          "sha1": "c7987087d43e0828df7294b2d97848bb82519c61",
+          "md5": "7625e8f2cb02ff2267a7b9aba76de548"
+        }
+      ]
+    }
+  ]
+}

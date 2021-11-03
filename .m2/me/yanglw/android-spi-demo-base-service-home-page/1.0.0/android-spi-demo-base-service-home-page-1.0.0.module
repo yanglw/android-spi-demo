@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.yanglw",
+    "module": "android-spi-demo-base-service-home-page",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "android-spi-demo-base-service-home-page-1.0.0.aar",
+          "url": "android-spi-demo-base-service-home-page-1.0.0.aar",
+          "size": 2983,
+          "sha512": "fd897c8b80cdea9d9251fe5d304ba03e1ba1b38c1970f04a6cb95828bf0a7a4d3475a9234e664d1c123f12c2f5ce14db831ff6f64f9fa9fa98aba8430cb2a883",
+          "sha256": "da8d3a4593387c8ee7365a18adef3a90d318f46e8007d063528c1f511bde99b6",
+          "sha1": "d7796808d72414fd3adef2b67845287b06f678b3",
+          "md5": "d3236840f0aa88da8f3e354a85b8f261"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.3.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-spi-demo-base-service-home-page-1.0.0.aar",
+          "url": "android-spi-demo-base-service-home-page-1.0.0.aar",
+          "size": 2983,
+          "sha512": "fd897c8b80cdea9d9251fe5d304ba03e1ba1b38c1970f04a6cb95828bf0a7a4d3475a9234e664d1c123f12c2f5ce14db831ff6f64f9fa9fa98aba8430cb2a883",
+          "sha256": "da8d3a4593387c8ee7365a18adef3a90d318f46e8007d063528c1f511bde99b6",
+          "sha1": "d7796808d72414fd3adef2b67845287b06f678b3",
+          "md5": "d3236840f0aa88da8f3e354a85b8f261"
+        }
+      ]
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 31
 
     defaultConfig {
         applicationId "me.yanglw.android.spi.demo.biz2"
-        minSdkVersion 15
-        targetSdkVersion 27
+        minSdkVersion 21
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
     buildTypes {
@@ -21,9 +21,9 @@ android {
 }
 
 dependencies {
-    implementation 'me.yanglw:android-spi-demo-biz2:1.0.0'
+    implementation project(':biz2Module')
 
-    implementation 'me.yanglw:android-spi-loader:1.0.1'
+    implementation "me.yanglw:android-spi-loader:$spi_version"
 }
 
 apply plugin:'me.yanglw.android.spi'

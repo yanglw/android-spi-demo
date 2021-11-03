@@ -3,10 +3,11 @@
   <groupId>me.yanglw</groupId>
   <artifactId>android-spi-demo-biz3-order-service</artifactId>
   <versioning>
+    <latest>1.0.0</latest>
     <release>1.0.0</release>
     <versions>
       <version>1.0.0</version>
     </versions>
-    <lastUpdated>20180603120720</lastUpdated>
+    <lastUpdated>20211104030932</lastUpdated>
   </versioning>
 </metadata>

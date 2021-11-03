@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 31
 
     resourcePrefix 'base_'
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 21
     }
 
 }

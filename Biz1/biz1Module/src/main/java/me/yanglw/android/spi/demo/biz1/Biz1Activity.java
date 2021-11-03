@@ -1,6 +1,6 @@
 package me.yanglw.android.spi.demo.biz1;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class Biz1Activity extends AppCompatActivity {

@@ -1,7 +1,7 @@
 package me.yanglw.android.spi.demo.biz3;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import me.yanglw.android.spi.ServiceProvider;
 import me.yanglw.android.spi.demo.service.home.HomePage;
