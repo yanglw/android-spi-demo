@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.yanglw",
+    "module": "biz1",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.yanglw",
+          "module": "base-res",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "biz1-1.0.0.aar",
+          "url": "biz1-1.0.0.aar",
+          "size": 37255,
+          "sha512": "c493704146003c1d4c56dd728729a23e185febe8e62b4415ea938a5c463877fc2cbb78d176f4eef41fb6d2091f0e3f105a36b3ebe7d863e6b51187f31d1a2f86",
+          "sha256": "162e01325bb11ca922c7bbdc94bd8594c68df41bd70e95fc9d9fb2010ba3fd94",
+          "sha1": "430a95c93cc99a5d2d2c1a7c4e788064f8138de1",
+          "md5": "ee9a9e88dadb06630696e2e2dc211f0c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.yanglw",
+          "module": "user",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "home-service",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "android-spi-annotation",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "base-res",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "biz1-1.0.0.aar",
+          "url": "biz1-1.0.0.aar",
+          "size": 37255,
+          "sha512": "c493704146003c1d4c56dd728729a23e185febe8e62b4415ea938a5c463877fc2cbb78d176f4eef41fb6d2091f0e3f105a36b3ebe7d863e6b51187f31d1a2f86",
+          "sha256": "162e01325bb11ca922c7bbdc94bd8594c68df41bd70e95fc9d9fb2010ba3fd94",
+          "sha1": "430a95c93cc99a5d2d2c1a7c4e788064f8138de1",
+          "md5": "ee9a9e88dadb06630696e2e2dc211f0c"
+        }
+      ]
+    }
+  ]
+}

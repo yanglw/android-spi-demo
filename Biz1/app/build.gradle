@@ -21,7 +21,8 @@ android {
 }
 
 dependencies {
-    implementation 'me.yanglw:android-spi-demo-biz1:1.0.0'
+    implementation project(':lib')
+    implementation 'me.yanglw:home:1.0.0'
 
     implementation "me.yanglw:android-spi-loader:$spi_version"
 }

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.yanglw",
+    "module": "base-res",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "base-res-1.0.0.aar",
+          "url": "base-res-1.0.0.aar",
+          "size": 33902,
+          "sha512": "eb45a1b651ffc9d7238815f157c061db2a92f339f0a072e95bb4bd119595d2842bfb160559945a4c3018fc2f7b4fd7d1d80d352afc6f56229e0b2d8d730c481c",
+          "sha256": "0e61afb7bd8e2cff82ba8dd4538a3d80ce3387a1157f8f22cd72ea28fc7bad6c",
+          "sha1": "9c6d356196709d72b4ba2adb8cd4e09894696d9f",
+          "md5": "b9fc38b3b2d37cdd3777cbad8b8af589"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "base-res-1.0.0.aar",
+          "url": "base-res-1.0.0.aar",
+          "size": 33902,
+          "sha512": "eb45a1b651ffc9d7238815f157c061db2a92f339f0a072e95bb4bd119595d2842bfb160559945a4c3018fc2f7b4fd7d1d80d352afc6f56229e0b2d8d730c481c",
+          "sha256": "0e61afb7bd8e2cff82ba8dd4538a3d80ce3387a1157f8f22cd72ea28fc7bad6c",
+          "sha1": "9c6d356196709d72b4ba2adb8cd4e09894696d9f",
+          "md5": "b9fc38b3b2d37cdd3777cbad8b8af589"
+        }
+      ]
+    }
+  ]
+}

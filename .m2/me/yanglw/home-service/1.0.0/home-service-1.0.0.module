@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.yanglw",
+    "module": "home-service",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "home-service-1.0.0.aar",
+          "url": "home-service-1.0.0.aar",
+          "size": 2981,
+          "sha512": "68d4c6862f5f6e213a36545cb72dc772796e9d77a94b7c58a29a4d9a6a9a2125e10865c6a582f2526d2f9e44e189caef14326a9903eee2610fbfc5a08823dc28",
+          "sha256": "e3a5f9ce11ab9e344d99eb5453427c1931bc0c63d730493d2f0b061701fda1cf",
+          "sha1": "cf0ced141048df6ce79215faa4399fa3dcb59e33",
+          "md5": "17d6a31430b86fee599c21df4429dc60"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.3.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "home-service-1.0.0.aar",
+          "url": "home-service-1.0.0.aar",
+          "size": 2981,
+          "sha512": "68d4c6862f5f6e213a36545cb72dc772796e9d77a94b7c58a29a4d9a6a9a2125e10865c6a582f2526d2f9e44e189caef14326a9903eee2610fbfc5a08823dc28",
+          "sha256": "e3a5f9ce11ab9e344d99eb5453427c1931bc0c63d730493d2f0b061701fda1cf",
+          "sha1": "cf0ced141048df6ce79215faa4399fa3dcb59e33",
+          "md5": "17d6a31430b86fee599c21df4429dc60"
+        }
+      ]
+    }
+  ]
+}

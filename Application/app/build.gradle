@@ -19,16 +19,10 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'com.google.android.material:material:1.4.0'
-
-    implementation 'me.yanglw:android-spi-demo-base-biz:1.0.0'
-    implementation 'me.yanglw:android-spi-demo-base-res:1.0.0'
-    implementation 'me.yanglw:android-spi-demo-base-service-home-page:1.0.0'
-    implementation 'me.yanglw:android-spi-demo-biz1:1.0.0'
-    implementation 'me.yanglw:android-spi-demo-biz2:1.0.0'
-    implementation 'me.yanglw:android-spi-demo-biz3:1.0.0'
-    implementation 'me.yanglw:android-spi-demo-biz4:1.0.0'
+    implementation 'me.yanglw:home:1.0.0'
+    implementation 'me.yanglw:biz1:1.0.0'
+    implementation 'me.yanglw:biz2:1.0.0'
+    implementation 'me.yanglw:biz3:1.0.0'
 
     implementation "me.yanglw:android-spi-loader:$spi_version"
 }

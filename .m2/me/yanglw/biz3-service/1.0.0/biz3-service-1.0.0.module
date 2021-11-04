@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.yanglw",
+    "module": "biz3-service",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "biz3-service-1.0.0.aar",
+          "url": "biz3-service-1.0.0.aar",
+          "size": 4174,
+          "sha512": "cfc7dc9b0b793c3156d3b7ad80c8890fb2794e4e7b939829f3ac1b83cd27084f174ee815dbbd4dff02ed3a06c850e38845557fff3ac0500fdf8e85341d58b1ed",
+          "sha256": "31d9f84490dc2a6303f16547ac51a18f9e19cc46ff367c06bfe06cca33046c1d",
+          "sha1": "d35879e5b0a72e3bd51aa219a93702539a9ea7c5",
+          "md5": "304eb424033cd4ee3a6f2b6eb68962c8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.3.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "biz3-service-1.0.0.aar",
+          "url": "biz3-service-1.0.0.aar",
+          "size": 4174,
+          "sha512": "cfc7dc9b0b793c3156d3b7ad80c8890fb2794e4e7b939829f3ac1b83cd27084f174ee815dbbd4dff02ed3a06c850e38845557fff3ac0500fdf8e85341d58b1ed",
+          "sha256": "31d9f84490dc2a6303f16547ac51a18f9e19cc46ff367c06bfe06cca33046c1d",
+          "sha1": "d35879e5b0a72e3bd51aa219a93702539a9ea7c5",
+          "md5": "304eb424033cd4ee3a6f2b6eb68962c8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,2 +1,3 @@
 include ':app'
-include ':biz2Module'
+include ':lib'
+include ':service'

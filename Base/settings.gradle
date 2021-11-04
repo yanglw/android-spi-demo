@@ -1,3 +1,2 @@
-include ':baseBizModule'
-include ':baseResModule'
-include ':baseServiceHomePageModule'
+include ':user'
+include ':res'

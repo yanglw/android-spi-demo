@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 21
+        consumerProguardFiles 'proguard.txt'
+    }
+}
+
+dependencies {
+    implementation 'androidx.fragment:fragment:1.3.6'
+}
+
+apply from:'../../mvn-android-local.gradle'

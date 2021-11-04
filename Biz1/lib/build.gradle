@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 31
+
+    resourcePrefix 'biz1_'
+
+    defaultConfig {
+        minSdkVersion 21
+        consumerProguardFiles 'proguard-rules.pro'
+    }
+}
+
+dependencies {
+    api 'me.yanglw:base-res:1.0.0'
+    implementation 'me.yanglw:user:1.0.0'
+    implementation 'me.yanglw:home-service:1.0.0'
+
+    implementation "me.yanglw:android-spi-annotation:$spi_version"
+}
+
+apply from: '../../mvn-android-local.gradle'

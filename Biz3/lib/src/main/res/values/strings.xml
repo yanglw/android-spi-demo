@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biz3_recommend">推荐购买商品：\n商品名称：%1$s\n商品描述：%2$s</string>
+    <string name="biz3_buy">购买</string>
+</resources>

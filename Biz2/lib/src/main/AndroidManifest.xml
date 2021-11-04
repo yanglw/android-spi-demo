@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.yanglw.android.spi.demo.biz2">
+
+    <application>
+        <activity
+            android:name="me.yanglw.android.spi.demo.biz2.Biz2Activity"
+            android:exported="false" />
+    </application>
+</manifest>

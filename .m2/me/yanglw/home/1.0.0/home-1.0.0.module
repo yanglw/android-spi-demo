@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.yanglw",
+    "module": "home",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.yanglw",
+          "module": "base-res",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "home-1.0.0.aar",
+          "url": "home-1.0.0.aar",
+          "size": 36217,
+          "sha512": "05b66ce8baa2414a00d89f1ed5d5aefdb5d81ae4bcdb4f9502994aa965c81a276bd6e9d1c0aeaf33ad7eab6a79b492b092fbc376a22920ee084297fc9559991c",
+          "sha256": "252a52c5dd1e338daf4061a79b6a2ecd8c91c1b5ad1aa9d1aebec0fc680eac7f",
+          "sha1": "cb68c00160626047193793ca248f9751cdd9c4e2",
+          "md5": "229adff17d4fc3351d9331174539611a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.yanglw",
+          "module": "user",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "home-service",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "android-spi-loader",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "me.yanglw",
+          "module": "base-res",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "home-1.0.0.aar",
+          "url": "home-1.0.0.aar",
+          "size": 36217,
+          "sha512": "05b66ce8baa2414a00d89f1ed5d5aefdb5d81ae4bcdb4f9502994aa965c81a276bd6e9d1c0aeaf33ad7eab6a79b492b092fbc376a22920ee084297fc9559991c",
+          "sha256": "252a52c5dd1e338daf4061a79b6a2ecd8c91c1b5ad1aa9d1aebec0fc680eac7f",
+          "sha1": "cb68c00160626047193793ca248f9751cdd9c4e2",
+          "md5": "229adff17d4fc3351d9331174539611a"
+        }
+      ]
+    }
+  ]
+}
